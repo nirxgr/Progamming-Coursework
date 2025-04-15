@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNE KSPHERE - Dashboard</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    <!-- Sidebar Navigation -->
+    <div class="sidebar">
+        <div class="logo">
+            <img src="../images/logo.png" alt="SNE KSPHERE Logo" class="logo-image">
+        </div>
+        
+        <div class="profile">
+            <img src="../images/profile-admin.jpeg" alt="Profile Photo" class="profile-photo">
+            <div class="profile-info">
+                <span class="profile-name">John Doe</span>
+                <span class="profile-role">Admin</span>
+            </div>
+        </div>
+        
+        <ul class="nav-links">
+            <li class="active">
+                <a href="#">
+                    <img src="../Admin/dashboard-icon.svg" alt="Dashboard" class="nav-icon">
+                    <span style="color: #F0671E;">Dashboard</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="../Admin/product-icon.svg" alt="Products" class="nav-icon">
+                    <span>Products</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="../Admin/order-icon.svg" alt="Orders" class="nav-icon">
+                    <span>Orders</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="../Admin/customer-icon.svg" alt="Customers" class="nav-icon">
+                    <span>Customers</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="../Admin/brand-icon.svg" alt="Brands" class="nav-icon">
+                    <span>Brands</span>
+                </a>
+            </li>
+        </ul>
+        
+        <ul class="bottom-links">
+            <li>
+                <a href="#">
+                    <img src="../Admin/logout-icon.svg" alt="LogOut" class="nav-icon">
+                    <span>LogOut</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Main Content Area -->
+    <div class="main-content">
+        <h1 class="dashboard-title">Dashboard</h1>
+        
+        <!-- Statistics Cards -->
+        <div class="stats-container">
+            <div class="stat-card">
+                <div class="stat-icon">
+                    <img src="../Admin/sales-icon.svg" alt="Sales">
+                </div>
+                <div class="stat-info">
+                    <h3>Total Sales</h3>
+                    <p>Rs. 30,00,000</p>
+                </div>
+            </div>
+            
+            <div class="stat-card">
+                <div class="stat-icon">
+                    <img src="../Admin/Totalproducts-icon.svg" alt="Products">
+                </div>
+                <div class="stat-info">
+                    <h3>Total Products</h3>
+                    <p>86,000</p>
+                </div>
+            </div>
+            
+            <div class="stat-card">
+                <div class="stat-icon">
+                    <img src="../Admin/Total Order-icon.svg" alt="Orders">
+                </div>
+                <div class="stat-info">
+                    <h3>Total Orders</h3>
+                    <p>56,000</p>
+                </div>
+            </div>
+            
+            <div class="stat-card">
+                <div class="stat-icon">
+                    <img src="../Admin/TotalCustomer-icon.svg" alt="Customers">
+                </div>
+                <div class="stat-info">
+                    <h3>Total Customers</h3>
+                    <p>56,000</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Top Product Performance Section -->
+        <div class="table-section">
+            <h2 class="section-title">Top Product Performance</h2>
+            <div class="table-container">
+                <table class="performance-table">
+                    <thead>
+                        <tr>
+                            <th>Product Name</th>
+                            <th>Add To Cart</th>
+                            <th>Sales</th>
+                            <th>Revenue</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="product-info">
+                                    <img src="../images/admin Black.webp" alt="Brown Pan" class="product-image">
+                                    <span>Nike Dunk Low Retro</span>
+                                </div>
+                            </td>
+                            <td>20,000</td>
+                            <td>8,000</td>
+                            <td>Rs. 200,000</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="product-info">
+                                    <img src="../images/Admin 550.webp" alt="Gold Coll" class="product-image">
+                                    <span>New Balance 550</span>
+                                </div>
+                            </td>
+                            <td>10,000</td>
+                            <td>3,000</td>
+                            <td>Rs. 200,000</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="product-info">
+                                    <img src="../images/Admin 9060.webp" alt="Retro Gren" class="product-image">
+                                    <span>New Balance 9060</span>
+                                </div>
+                            </td>
+                            <td>4,000</td>
+                            <td>1,000</td>
+                            <td>Rs. 200,000</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="product-info">
+                                    <img src="../images/admin retro 1.webp" alt="Retro Gren" class="product-image">
+                                    <span>Jordan Retro 1 High OG</span>
+                                </div>
+                            </td>
+                            <td>4,000</td>
+                            <td>1,000</td>
+                            <td>Rs. 200,000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Most Buying Customer Section -->
+        <div class="table-section">
+            <h2 class="section-title">Most Buying Customer</h2>
+            <div class="table-container">
+                <table class="customer-table">
+                    <thead>
+                        <tr>
+                            <th>Customer Name</th>
+                            <th>Buy</th>
+                            <th>Amount</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Virat Kohli</td>
+                            <td>20,000</td>
+                            <td>Rs. 200,000</td>
+                        </tr>
+                        <tr>
+                            <td>Andrew Guss</td>
+                            <td>10,000</td>
+                            <td>Rs. 100,000</td>
+                        </tr>
+                        <tr>
+                            <td>Rohit Sharma</td>
+                            <td>9,000</td>
+                            <td>Rs. 90,000</td>
+                        </tr>
+                        <tr>
+                            <td>Ranbir Kapoor</td>
+                            <td>9,000</td>
+                            <td>Rs. 90,000</td>
+                        </tr>
+                        <tr>
+                            <td>Vijya Verma</td>
+                            <td>9,000</td>
+                            <td>Rs. 90,000</td>
+                        </tr>
+                        <tr>
+                            <td>Nikhil Kamat</td>
+                            <td>9,000</td>
+                            <td>Rs. 90,000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
